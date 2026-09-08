@@ -1,0 +1,6 @@
+{
+  "name": "AI Agent JavaScript v2",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "postCreateCommand": "if [ -f package-lock.json ]; then npm ci; elif [ -f package.json ]; then npm install; fi",
+  "remoteUser": "node"
+}
