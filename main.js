@@ -2,6 +2,7 @@ import { input } from "@inquirer/prompts";
 import OpenAI from "openai";
 import { OPENAI_API_KEY } from "./config.js";
 import { initMessage, addMessage, getMessages } from "./db/messages.js";
+import { calculatorTool, calculate } from "./src/tools/calculator.js";
 
 const client = new OpenAI({ apiKey: OPENAI_API_KEY });
 
