@@ -1,11 +1,12 @@
 {
-  "name": "ai-agent-js-v2",
-  "version": "0.1.0",
-  "description": "AI Agent 實作工作坊（JavaScript 版）",
+  "name": "homework",
+  "version": "1.1.0",
+  "description": "AI Agent 2604T homework",
   "type": "module",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "test:calculator": "node src/testCalculator.js"
   },
   "engines": {
     "node": ">=22.0.0"
