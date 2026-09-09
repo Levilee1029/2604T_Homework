@@ -6,7 +6,10 @@
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
-    "test": "node --test"
+    "test": "node --test",
+    "knowledge:init": "node scripts/initKnowledgeBase.js",
+    "knowledge:check": "node scripts/checkKnowledgeBase.js",
+    "knowledge:search": "node scripts/searchKnowledgeBase.js"
   },
   "engines": {
     "node": ">=22.0.0"
